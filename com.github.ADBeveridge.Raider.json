@@ -28,9 +28,10 @@
             "builddir" : true,
             "sources" : [
                 {
-                    "type" : "archive",
-                    "url" : "https://github.com/ADBeveridge/raider/archive/refs/tags/v0.1.0.tar.gz",
-                    "sha256" : "434d0d6f8789d85d9b84b4ff613b9a071b7b7793459e5035ab4ab79bd7a5a834"
+                    "type" : "git",
+                    "url" : "https://github.com/ADBeveridge/raider.git",
+                    "commit" : "12062b9f52af4a75e58c8574a8fffdbe5ee1f04a",
+                    "branch" : "main"
                 }
             ]
         }
