@@ -30,7 +30,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/ADBeveridge/raider.git",
-                    "commit" : "8d87e8406423a9906c3416bee6fdc81b7dbc3791",
+                    "commit" : "4be41dc05ba526ea528bda0ea077155299036fec",
                     "branch" : "main"
                 }
             ]
