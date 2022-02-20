@@ -23,6 +23,18 @@
     ],
     "modules" : [
         {
+            "name" : "libdazzle",
+            "buildsystem" : "meson",
+            "builddir" : true,
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://gitlab.gnome.org/GNOME/libdazzle.git",
+                    "commit" : "1baded912ba4257db1f843aacf27442695c35413"
+                }
+            ]
+        },
+        {
             "name" : "raider",
             "buildsystem" : "meson",
             "builddir" : true,
