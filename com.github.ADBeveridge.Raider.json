@@ -42,7 +42,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/ADBeveridge/raider.git",
-                    "commit" : "5ef3e102f76de5a1067b4441bc5eb6170464eb38",
+                    "commit" : "e3a1930f05ae547255def6b1685935be44b94877",
                     "branch" : "main"
                 }
             ]
