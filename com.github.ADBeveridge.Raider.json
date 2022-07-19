@@ -1,7 +1,7 @@
 {
     "app-id" : "com.github.ADBeveridge.Raider",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "41",
+    "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
     "command" : "raider",
     "finish-args" : [
@@ -12,39 +12,32 @@
     ],
     "cleanup" : [
         "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
         "/share/pkgconfig",
         "*.la",
         "*.a"
     ],
     "modules" : [
         {
-            "name" : "libdazzle",
+            "name" : "blueprint-compiler",
             "buildsystem" : "meson",
-            "builddir" : true,
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/libdazzle.git",
-                    "commit" : "1baded912ba4257db1f843aacf27442695c35413"
+                    "url" : "https://gitlab.gnome.org/jwestman/blueprint-compiler",
+                    "branch" : "main"
                 }
             ]
         },
         {
             "name" : "raider",
-            "buildsystem" : "meson",
             "builddir" : true,
+            "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://github.com/ADBeveridge/raider.git",
-                    "branch" : "main"
+                    "url" : "file:///home/ad/Projects/raider"
                 }
             ]
         }
-    ]
+    ],
 }
