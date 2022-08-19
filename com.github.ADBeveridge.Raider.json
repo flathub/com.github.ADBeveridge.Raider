@@ -26,7 +26,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "branch" : "main"
+                    "commit" : "59283a76adc8d270ff5f67b630b7dfa905ec34a9"
                 }
             ]
         },
@@ -38,7 +38,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/ADBeveridge/raider",
-                    "branch" : "main"
+                    "commit" : "b4e661892ddbaddd5774ef4d53a5c2d974e1cb37"
                 }
             ]
         }
