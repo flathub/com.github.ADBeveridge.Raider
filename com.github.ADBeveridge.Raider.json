@@ -39,7 +39,7 @@
                     "type" : "git",
                     "url" : "https://github.com/ADBeveridge/raider",
                     "tag" : "v1.3.0",
-                    "commit" : "c789da4a53be85c978564e3b6d2c19c77c91bf3b"
+                    "commit" : "e062be540db5db1c00bec111f7cd0b665bd909a9"
                 }
             ]
         }
