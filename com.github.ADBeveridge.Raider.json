@@ -2,7 +2,7 @@
 {
     "app-id" : "com.github.ADBeveridge.Raider",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "45",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "command" : "raider",
     "finish-args" : [
@@ -40,8 +40,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/ADBeveridge/raider",
-                    "tag" : "v2.1.0",
-                    "commit" : "b17eff0cae55c5a9344d9695323d0042383b324f"
+                    "tag" : "v3.0.0",
+                    "commit" : "d4f22f9c9a47c6e7182be48797eb0e09ba9b0f44"
                 }
             ]
         }
